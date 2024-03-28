@@ -1,25 +1,17 @@
 class ExtractDevices:
-    def __init__(self,credencials_path):
+    def __init__(self,url,tenant,username,password):
         from c8y_api import CumulocityApi
-        import json
-        from os.path import join
-
-        # file with credentials
-        config_path = join(credencials_path)
-        with open(config_path) as config_file:
-            login = json.load(config_file)
 
         # instâncias globais
         self.c8y = CumulocityApi(
-            base_url= login['url'],
-            tenant_id= login['tenant'],
-            username= login['username'],
-            password= login['password'],
+            base_url= url,
+            tenant_id= tenant,
+            username= username,
+            password=password,
         )
         
     def extrair_devices(self) -> dict:
         from c8y_api.model import DeviceInventory
-        import pandas as pd
         dev = DeviceInventory(self.c8y) # EXTRACT
 
         self.schema = { 
@@ -42,7 +34,7 @@ class ExtractDevices:
         from os import getcwd
 
         data_path = join(path_to_save)
-        with open(data_path,'w', newline='') as data_file:
+        with open(data_path,'w', newline='',encoding='utf-8') as data_file:
             w = writer(data_file)
             w.writerow(k for k in schema.keys())
 
@@ -54,5 +46,23 @@ class ExtractDevices:
         
         
 if __name__ == '__main__':
-    ExtractDevices()
+    # utilizando a classe como para ela realizar o trabalho que realizará quando importada.
+    # extrai devices -> salva CSV
+    
+    from dotenv import load_dotenv
+    from os import getenv
+    load_dotenv()
+    
+    # vars de ambiente
+    URL=getenv('URL')
+    TENANT=getenv('TENANT')
+    USERNAME=getenv('USERNAME')
+    PASSWORD=getenv('PASSWORD')
+    
+    devices = ExtractDevices(URL,TENANT,USERNAME,PASSWORD)
+    print(devices.extrair_devices())
+    '''
+    devices = ExtractDevices(URL,TENANT,USERNAME,PASSWORD)
+    devices.salvar_csv(devices.extrair_devices(),'C:/Users/breno.oliveira/Documents/ProgramasPython/myk4.0_dataApp/datas/devices.csv')
+    '''
             

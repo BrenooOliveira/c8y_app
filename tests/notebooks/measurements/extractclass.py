@@ -6,7 +6,7 @@ class ExtractMeasurements:
     def __init__(self,c8y,source):
         '''
         ::PARAMETERS::
-        c8y -> instância 'CumulocityApi' da lin c8y-api
+        c8y -> instância 'CumulocityApi' da lib c8y-api
         source -> id do device dentro da instância do Cumulocity IoT
         ::DESCRIPTION::
         inicia os dois objetos para utilizarmos nas demais funções
@@ -40,19 +40,22 @@ class ExtractMeasurements:
         - nao retorna nada pois eh uma funcao auxiliar que direciona para outras funcoes
         '''
 
-        #capturar apenas um fragmento do retorno da API e então condicionar. 
-        for i in self.one_hour_measu:
-            ...
-        device_type = len(i.fragments.keys()) 
-
-        if device_type == 1: 
-            print(f'o device {self.source} é NOVO')
-            return self.extract_new_devices() # os new_devices vêm separados. Cada fragmento é um tipo de measu 
-        else:
-            print(f'o device {self.source} NÃO é novo')
-            return self.extract_old_devices() # os old devices vêm no formato compactado. Ou seja, ele retorna > 1 pois todas as measu vêm num só pacote
         
-        ...
+        try:
+            #capturar apenas um fragmento do retorno da API e então condicionar.
+            for i in self.one_hour_measu:
+                ...
+            device_type = len(i.fragments.keys()) 
+
+            if device_type == 1: 
+                print(f'o device {self.source} é NOVO')
+                return self.extract_new_devices() # os new_devices vêm separados. Cada fragmento é um tipo de measu 
+            else:
+                print(f'o device {self.source} NÃO é novo')
+                return self.extract_old_devices() # os old devices vêm no formato compactado. Ou seja, ele retorna > 1 pois todas as measu vêm num só pacote
+        except UnboundLocalError as error:
+            # se ocorrer 'UnboundLocalError' signfica que o 'self.one_hour_measu' não puxou dados pois o devices está off 
+            print(f'O device {self.source} está OFF!')
 
     # EXTRACT
     def extract_new_devices(self) -> list: 
@@ -132,7 +135,7 @@ class ExtractMeasurements:
 
         return [tratamento(self.one_hour_measu),tratamento(self.two_hour_measu)]        
 
-    def extrac_N_device(self): # reservado para mais um tipo de device
+    def extract_N_devices(self): # reservado para mais um tipo de device
        # TRANSFORM
         def tratamento(_hour_measu):
             return ...
@@ -141,4 +144,5 @@ class ExtractMeasurements:
     def load_parquet(self): # LOAD
         pass
         
-        
+if __name__ == '__main__':
+    pass
