@@ -1,0 +1,652 @@
+[
+  {
+    "source": {
+      "id": "M2-251983"
+    },
+    "time": "2025-06-01T12:00:00Z",
+    "type": "c8y_VibrationMeasurement",
+    "c8y_Vibration": {
+      "RMS": {
+        "unit": "mm/s",
+        "value": 2.7
+      }
+    }
+  },
+  {
+    "source": {
+      "id": "M2-251983"
+    },
+    "time": "2025-06-01T15:00:00Z",
+    "type": "c8y_TemperatureMeasurement",
+    "c8y_Steam": {
+      "Temperature": {
+        "unit": "C",
+        "value": 89.8
+      }
+    }
+  },
+  {
+    "source": {
+      "id": "M1-251982"
+    },
+    "time": "2025-06-01T18:00:00Z",
+    "type": "c8y_TemperatureMeasurement",
+    "c8y_Steam": {
+      "Temperature": {
+        "unit": "C",
+        "value": 105.22
+      }
+    }
+  },
+  {
+    "source": {
+      "id": "M1-251982"
+    },
+    "time": "2025-06-01T21:00:00Z",
+    "type": "c8y_VibrationMeasurement",
+    "c8y_Vibration": {
+      "RMS": {
+        "unit": "mm/s",
+        "value": 4.25
+      }
+    }
+  },
+  {
+    "source": {
+      "id": "M2-251983"
+    },
+    "time": "2025-06-02T00:00:00Z",
+    "type": "c8y_PressureMeasurement",
+    "c8y_Pressure": {
+      "Pressure": {
+        "unit": "bar",
+        "value": 1.54
+      }
+    }
+  },
+  {
+    "source": {
+      "id": "M1-251982"
+    },
+    "time": "2025-06-02T03:00:00Z",
+    "type": "c8y_TemperatureMeasurement",
+    "c8y_Steam": {
+      "Temperature": {
+        "unit": "C",
+        "value": 92.56
+      }
+    }
+  },
+  {
+    "source": {
+      "id": "M1-251982"
+    },
+    "time": "2025-06-02T06:00:00Z",
+    "type": "c8y_PressureMeasurement",
+    "c8y_Pressure": {
+      "Pressure": {
+        "unit": "bar",
+        "value": 2.36
+      }
+    }
+  },
+  {
+    "source": {
+      "id": "M2-251983"
+    },
+    "time": "2025-06-02T09:00:00Z",
+    "type": "c8y_PressureMeasurement",
+    "c8y_Pressure": {
+      "Pressure": {
+        "unit": "bar",
+        "value": 2.74
+      }
+    }
+  },
+  {
+    "source": {
+      "id": "M2-251983"
+    },
+    "time": "2025-06-02T12:00:00Z",
+    "type": "c8y_PressureMeasurement",
+    "c8y_Pressure": {
+      "Pressure": {
+        "unit": "bar",
+        "value": 2.05
+      }
+    }
+  },
+  {
+    "source": {
+      "id": "M2-251983"
+    },
+    "time": "2025-06-02T15:00:00Z",
+    "type": "c8y_TemperatureMeasurement",
+    "c8y_Steam": {
+      "Temperature": {
+        "unit": "C",
+        "value": 88.77
+      }
+    }
+  },
+  {
+    "source": {
+      "id": "M2-251983"
+    },
+    "time": "2025-06-02T18:00:00Z",
+    "type": "c8y_TemperatureMeasurement",
+    "c8y_Steam": {
+      "Temperature": {
+        "unit": "C",
+        "value": 86.3
+      }
+    }
+  },
+  {
+    "source": {
+      "id": "M1-251982"
+    },
+    "time": "2025-06-02T21:00:00Z",
+    "type": "c8y_TemperatureMeasurement",
+    "c8y_Steam": {
+      "Temperature": {
+        "unit": "C",
+        "value": 90.87
+      }
+    }
+  },
+  {
+    "source": {
+      "id": "M1-251982"
+    },
+    "time": "2025-06-03T00:00:00Z",
+    "type": "c8y_PressureMeasurement",
+    "c8y_Pressure": {
+      "Pressure": {
+        "unit": "bar",
+        "value": 2.63
+      }
+    }
+  },
+  {
+    "source": {
+      "id": "M2-251983"
+    },
+    "time": "2025-06-03T03:00:00Z",
+    "type": "c8y_VibrationMeasurement",
+    "c8y_Vibration": {
+      "RMS": {
+        "unit": "mm/s",
+        "value": 3.0
+      }
+    }
+  },
+  {
+    "source": {
+      "id": "M2-251983"
+    },
+    "time": "2025-06-03T06:00:00Z",
+    "type": "c8y_VibrationMeasurement",
+    "c8y_Vibration": {
+      "RMS": {
+        "unit": "mm/s",
+        "value": 5.94
+      }
+    }
+  },
+  {
+    "source": {
+      "id": "M2-251983"
+    },
+    "time": "2025-06-03T09:00:00Z",
+    "type": "c8y_TemperatureMeasurement",
+    "c8y_Steam": {
+      "Temperature": {
+        "unit": "C",
+        "value": 94.2
+      }
+    }
+  },
+  {
+    "source": {
+      "id": "M1-251982"
+    },
+    "time": "2025-06-03T12:00:00Z",
+    "type": "c8y_TemperatureMeasurement",
+    "c8y_Steam": {
+      "Temperature": {
+        "unit": "C",
+        "value": 104.81
+      }
+    }
+  },
+  {
+    "source": {
+      "id": "M1-251982"
+    },
+    "time": "2025-06-03T15:00:00Z",
+    "type": "c8y_VibrationMeasurement",
+    "c8y_Vibration": {
+      "RMS": {
+        "unit": "mm/s",
+        "value": 5.89
+      }
+    }
+  },
+  {
+    "source": {
+      "id": "M2-251983"
+    },
+    "time": "2025-06-03T18:00:00Z",
+    "type": "c8y_VibrationMeasurement",
+    "c8y_Vibration": {
+      "RMS": {
+        "unit": "mm/s",
+        "value": 3.66
+      }
+    }
+  },
+  {
+    "source": {
+      "id": "M1-251982"
+    },
+    "time": "2025-06-03T21:00:00Z",
+    "type": "c8y_TemperatureMeasurement",
+    "c8y_Steam": {
+      "Temperature": {
+        "unit": "C",
+        "value": 99.09
+      }
+    }
+  },
+  {
+    "source": {
+      "id": "M2-251983"
+    },
+    "time": "2025-06-04T00:00:00Z",
+    "type": "c8y_TemperatureMeasurement",
+    "c8y_Steam": {
+      "Temperature": {
+        "unit": "C",
+        "value": 89.15
+      }
+    }
+  },
+  {
+    "source": {
+      "id": "M2-251983"
+    },
+    "time": "2025-06-04T03:00:00Z",
+    "type": "c8y_PressureMeasurement",
+    "c8y_Pressure": {
+      "Pressure": {
+        "unit": "bar",
+        "value": 2.23
+      }
+    }
+  },
+  {
+    "source": {
+      "id": "M2-251983"
+    },
+    "time": "2025-06-04T06:00:00Z",
+    "type": "c8y_VibrationMeasurement",
+    "c8y_Vibration": {
+      "RMS": {
+        "unit": "mm/s",
+        "value": 2.13
+      }
+    }
+  },
+  {
+    "source": {
+      "id": "M1-251982"
+    },
+    "time": "2025-06-04T09:00:00Z",
+    "type": "c8y_VibrationMeasurement",
+    "c8y_Vibration": {
+      "RMS": {
+        "unit": "mm/s",
+        "value": 3.33
+      }
+    }
+  },
+  {
+    "source": {
+      "id": "M1-251982"
+    },
+    "time": "2025-06-04T12:00:00Z",
+    "type": "c8y_PressureMeasurement",
+    "c8y_Pressure": {
+      "Pressure": {
+        "unit": "bar",
+        "value": 2.47
+      }
+    }
+  },
+  {
+    "source": {
+      "id": "M2-251983"
+    },
+    "time": "2025-06-04T15:00:00Z",
+    "type": "c8y_TemperatureMeasurement",
+    "c8y_Steam": {
+      "Temperature": {
+        "unit": "C",
+        "value": 104.04
+      }
+    }
+  },
+  {
+    "source": {
+      "id": "M2-251983"
+    },
+    "time": "2025-06-04T18:00:00Z",
+    "type": "c8y_TemperatureMeasurement",
+    "c8y_Steam": {
+      "Temperature": {
+        "unit": "C",
+        "value": 104.99
+      }
+    }
+  },
+  {
+    "source": {
+      "id": "M1-251982"
+    },
+    "time": "2025-06-04T21:00:00Z",
+    "type": "c8y_VibrationMeasurement",
+    "c8y_Vibration": {
+      "RMS": {
+        "unit": "mm/s",
+        "value": 2.14
+      }
+    }
+  },
+  {
+    "source": {
+      "id": "M1-251982"
+    },
+    "time": "2025-06-05T00:00:00Z",
+    "type": "c8y_VibrationMeasurement",
+    "c8y_Vibration": {
+      "RMS": {
+        "unit": "mm/s",
+        "value": 4.5
+      }
+    }
+  },
+  {
+    "source": {
+      "id": "M1-251982"
+    },
+    "time": "2025-06-05T03:00:00Z",
+    "type": "c8y_TemperatureMeasurement",
+    "c8y_Steam": {
+      "Temperature": {
+        "unit": "C",
+        "value": 94.15
+      }
+    }
+  },
+  {
+    "source": {
+      "id": "M1-251982"
+    },
+    "time": "2025-06-05T06:00:00Z",
+    "type": "c8y_TemperatureMeasurement",
+    "c8y_Steam": {
+      "Temperature": {
+        "unit": "C",
+        "value": 88.49
+      }
+    }
+  },
+  {
+    "source": {
+      "id": "M1-251982"
+    },
+    "time": "2025-06-05T09:00:00Z",
+    "type": "c8y_VibrationMeasurement",
+    "c8y_Vibration": {
+      "RMS": {
+        "unit": "mm/s",
+        "value": 5.76
+      }
+    }
+  },
+  {
+    "source": {
+      "id": "M2-251983"
+    },
+    "time": "2025-06-05T12:00:00Z",
+    "type": "c8y_TemperatureMeasurement",
+    "c8y_Steam": {
+      "Temperature": {
+        "unit": "C",
+        "value": 98.61
+      }
+    }
+  },
+  {
+    "source": {
+      "id": "M2-251983"
+    },
+    "time": "2025-06-05T15:00:00Z",
+    "type": "c8y_TemperatureMeasurement",
+    "c8y_Steam": {
+      "Temperature": {
+        "unit": "C",
+        "value": 86.13
+      }
+    }
+  },
+  {
+    "source": {
+      "id": "M1-251982"
+    },
+    "time": "2025-06-05T18:00:00Z",
+    "type": "c8y_VibrationMeasurement",
+    "c8y_Vibration": {
+      "RMS": {
+        "unit": "mm/s",
+        "value": 2.85
+      }
+    }
+  },
+  {
+    "source": {
+      "id": "M2-251983"
+    },
+    "time": "2025-06-05T21:00:00Z",
+    "type": "c8y_PressureMeasurement",
+    "c8y_Pressure": {
+      "Pressure": {
+        "unit": "bar",
+        "value": 2.51
+      }
+    }
+  },
+  {
+    "source": {
+      "id": "M1-251982"
+    },
+    "time": "2025-06-06T00:00:00Z",
+    "type": "c8y_TemperatureMeasurement",
+    "c8y_Steam": {
+      "Temperature": {
+        "unit": "C",
+        "value": 100.25
+      }
+    }
+  },
+  {
+    "source": {
+      "id": "M2-251983"
+    },
+    "time": "2025-06-06T03:00:00Z",
+    "type": "c8y_VibrationMeasurement",
+    "c8y_Vibration": {
+      "RMS": {
+        "unit": "mm/s",
+        "value": 4.38
+      }
+    }
+  },
+  {
+    "source": {
+      "id": "M1-251982"
+    },
+    "time": "2025-06-06T06:00:00Z",
+    "type": "c8y_PressureMeasurement",
+    "c8y_Pressure": {
+      "Pressure": {
+        "unit": "bar",
+        "value": 2.14
+      }
+    }
+  },
+  {
+    "source": {
+      "id": "M2-251983"
+    },
+    "time": "2025-06-06T09:00:00Z",
+    "type": "c8y_TemperatureMeasurement",
+    "c8y_Steam": {
+      "Temperature": {
+        "unit": "C",
+        "value": 94.64
+      }
+    }
+  },
+  {
+    "source": {
+      "id": "M1-251982"
+    },
+    "time": "2025-06-06T12:00:00Z",
+    "type": "c8y_PressureMeasurement",
+    "c8y_Pressure": {
+      "Pressure": {
+        "unit": "bar",
+        "value": 1.93
+      }
+    }
+  },
+  {
+    "source": {
+      "id": "M2-251983"
+    },
+    "time": "2025-06-06T15:00:00Z",
+    "type": "c8y_VibrationMeasurement",
+    "c8y_Vibration": {
+      "RMS": {
+        "unit": "mm/s",
+        "value": 5.37
+      }
+    }
+  },
+  {
+    "source": {
+      "id": "M2-251983"
+    },
+    "time": "2025-06-06T18:00:00Z",
+    "type": "c8y_PressureMeasurement",
+    "c8y_Pressure": {
+      "Pressure": {
+        "unit": "bar",
+        "value": 2.2
+      }
+    }
+  },
+  {
+    "source": {
+      "id": "M2-251983"
+    },
+    "time": "2025-06-06T21:00:00Z",
+    "type": "c8y_PressureMeasurement",
+    "c8y_Pressure": {
+      "Pressure": {
+        "unit": "bar",
+        "value": 2.39
+      }
+    }
+  },
+  {
+    "source": {
+      "id": "M1-251982"
+    },
+    "time": "2025-06-07T00:00:00Z",
+    "type": "c8y_PressureMeasurement",
+    "c8y_Pressure": {
+      "Pressure": {
+        "unit": "bar",
+        "value": 2.36
+      }
+    }
+  },
+  {
+    "source": {
+      "id": "M1-251982"
+    },
+    "time": "2025-06-07T03:00:00Z",
+    "type": "c8y_VibrationMeasurement",
+    "c8y_Vibration": {
+      "RMS": {
+        "unit": "mm/s",
+        "value": 3.87
+      }
+    }
+  },
+  {
+    "source": {
+      "id": "M2-251983"
+    },
+    "time": "2025-06-07T06:00:00Z",
+    "type": "c8y_TemperatureMeasurement",
+    "c8y_Steam": {
+      "Temperature": {
+        "unit": "C",
+        "value": 109.91
+      }
+    }
+  },
+  {
+    "source": {
+      "id": "M1-251982"
+    },
+    "time": "2025-06-07T09:00:00Z",
+    "type": "c8y_VibrationMeasurement",
+    "c8y_Vibration": {
+      "RMS": {
+        "unit": "mm/s",
+        "value": 3.96
+      }
+    }
+  },
+  {
+    "source": {
+      "id": "M1-251982"
+    },
+    "time": "2025-06-07T12:00:00Z",
+    "type": "c8y_VibrationMeasurement",
+    "c8y_Vibration": {
+      "RMS": {
+        "unit": "mm/s",
+        "value": 5.33
+      }
+    }
+  },
+  {
+    "source": {
+      "id": "M1-251982"
+    },
+    "time": "2025-06-07T15:00:00Z",
+    "type": "c8y_VibrationMeasurement",
+    "c8y_Vibration": {
+      "RMS": {
+        "unit": "mm/s",
+        "value": 5.9
+      }
+    }
+  }
+]
